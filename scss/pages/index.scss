@@ -29,6 +29,17 @@ body {
                 font-weight: 400;
             }
         }
+        @media screen and (max-width: 646px) {
+            & {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &-items {
+                    padding: 30px;
+                    width: 80px;
+                }
+            }
+        }
         &-items:nth-child(2) {
             margin-left: 20px;
             margin-right: 20px;
